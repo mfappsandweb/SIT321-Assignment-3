@@ -1,0 +1,74 @@
+body { 
+margin: 5px; 
+padding: 20px 5px 5px 5px; 
+overflow: hidden; /* overflow: hidden prevents full scrollbar in IE */ 
+} 
+
+div#header { 
+/* you must include "div" for IE */ 
+position: absolute; 
+top:0px; 
+left: 0px; 
+width: 100%; 
+height: 10%; 
+background-color: #aabbff; 
+overflow: hidden; 
+} 
+
+#content { 
+overflow: auto;
+height: 100%;
+}
+div#topContent { 
+/* you must include "div" for IE */ 
+border-style: solid;
+border: 1px solid;
+border-color: #aabbff;
+position: absolute; 
+top:11%; 
+left: 1%; 
+width: 98%; 
+height: 29%; 
+
+overflow: auto; 
+} 
+div#centreContent { 
+/* you must include "div" for IE */ 
+border-style: solid;
+border: 1px solid ;
+border-color: #aabbff;
+position: absolute; 
+top:41%; 
+left: 1%; 
+width: 98%; 
+height: 30%;
+overflow: auto; 
+} 
+div#bottomContent { 
+/* you must include "div" for IE */ 
+border-style: solid;
+border: 1px solid ;
+border-color: #aabbff;
+position: absolute; 
+top: 72%; 
+left: 1%; 
+width: 98%; 
+height: 27%; 
+overflow: auto; 
+} 
+form#userDetails {
+    margin: 5px 5px 5px 5px;	
+}
+.formInput {
+	width: 400px;	
+}
+.formDiv {
+	padding-top: 5px;
+}
+.leftLabel {
+	float: left;
+    width: 100px;
+    padding-right: 20px;
+
+}
+
