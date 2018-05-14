@@ -1,6 +1,6 @@
 <?php
-require_once('Database.php');
-require_once('User.php');
+require_once('class/Database.php');
+require_once('class/User.php');
 session_start();
 class LoginHandler{
 //loginProcess
