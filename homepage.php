@@ -1,6 +1,6 @@
 <?php
-require_once('User.php');
-require_once('constants.php');
+require_once('class/User.php');
+require_once('class/constants.php');
 session_start();
 
 

@@ -1,11 +1,10 @@
 <?php
+
 	class Database{
 	//a shared database connection
     const USER = "";
     const PASS = "";
     const DB = "SSID";
-
-	
 	
     private static $instance; // single static instance
 

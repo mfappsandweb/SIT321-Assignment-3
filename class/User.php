@@ -1,7 +1,6 @@
 <?php
 class User{
 
-
 	private $user_id; 
 	private $fname;
 	private $lname;
