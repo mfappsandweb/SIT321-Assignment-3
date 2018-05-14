@@ -1,7 +1,7 @@
 <?php
+require_once('Database.php');
+require_once('User.php');
 session_start();
-include('Database.php');
-include('User.php');
 class LoginHandler{
 //loginProcess
 //extract  login_email and login_password from request

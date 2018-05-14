@@ -1,6 +1,6 @@
 <?php
+require_once('Database.php');
 session_start();
-include('Database.php');
 
 //bootstrap our first user, so we can login as admin and create new users. We should delete this once first admin is setup
 

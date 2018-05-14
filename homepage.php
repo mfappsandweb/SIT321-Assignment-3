@@ -1,7 +1,7 @@
 <?php
+require_once('User.php');
+require_once('constants.php');
 session_start();
-include('User.php');
-include('constants.php');
 
 
 if (empty($_SESSION['user_ID'])) 

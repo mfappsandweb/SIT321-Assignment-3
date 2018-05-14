@@ -1,7 +1,7 @@
 <?php
+require_once('Database.php');
+require_once('User.php');
 session_start();
-include('Database.php');
-include('User.php');
 
 //check we have user id and type in session
  $action = $_POST["action"];
